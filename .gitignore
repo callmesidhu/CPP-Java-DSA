@@ -1,0 +1,62 @@
+# === Common OS files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / Eclipse / NetBeans (Java IDEs)
+.idea/
+*.iml
+*.ipr
+*.iws
+target/
+out/
+bin/
+build/
+
+# === Java build files ===
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === C++ build files ===
+*.o
+*.obj
+*.exe
+*.out
+*.gch
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Code Runner and temp files
+tempCodeRunnerFile
+tempCodeRunnerFile.*
+
+# Backup & temp files
+*.swp
+*.swo
+*.bak
+*~
+
